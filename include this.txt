@@ -1,0 +1,5 @@
+must say
+* size of the each body part(list)
+* must mention each body part(list)
+* must mention art style wanted(list)
+* name
