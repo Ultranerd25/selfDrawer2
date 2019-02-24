@@ -1,18 +1,18 @@
+* {
+	color: white;
+}
 body {
   background-color: black;
 }
 
 h1 {
-  color: white;
   text-align: center;
 
 }
 
-h3 {
-  color:white;
-  /* font-size: 14px; */
+input {
+	color: black;
 }
-
-li {
-  color:white;
+button{
+	color: black;
 }
