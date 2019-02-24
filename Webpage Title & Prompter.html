@@ -28,11 +28,11 @@
 
      <ul>
 
-        <button oneclick="setartstyle()">Anime</button>
+        <button onclick="setartstyle(0)">Anime</button>
 
-        <button oneclick="setartstyle()">Cartoon</button>
+        <button onclick="setartstyle(1)">Cartoon</button>
 
-        <button oneclick="setartstyle()">Realistic</button>
+        <button onclick="setartstyle(2)">Realistic</button>
 
     </ul>   
 
@@ -45,10 +45,6 @@
         <li>Nose</li>
 
         <li>Mouth</li>
-
-        <li>Ears</li>
-
-        <li>Shape of head</li>
 
     </ul>
 
@@ -66,8 +62,8 @@
 
 </ul>
 
-<input type="text" id="character_input" placeholder = "describe character" name="character_input"/>
-
+<input type="text" id="character_input" placeholder = "describe character" name="character_input" width="100", height="100"/>
+<input type="text" id="character_name" placeholder = "Character's name" name="character_name"/>
 <button onclick="character_imagine()">Submit</button>
 
 </body>
