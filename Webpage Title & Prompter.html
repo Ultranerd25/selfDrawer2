@@ -1,73 +1,47 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 <title>Relevant Character Results</title>
-
 <link rel="stylesheet" type="text/css" href="Webpage Design.css">
-
 <script src="./dictionary.js"></script>
-
 </head>
-
 <body>
-
 <h1>Character Image Search</h1>
+<img src="https://i.imgur.com/6U0yrq5.gif?noredirect" width="200" height="200"><img src="https://thumbs.gfycat.com/ActiveUnconsciousHyena-max-1mb.gif" width="150" height="150"><img src="https://media0.giphy.com/media/9KawrQzIwdAYg/giphy.gif?cid=3640f6095c6bd9026153446f730ee93b" width="200" height="200">
 
-<img src="https://i.imgur.com/6U0yrq5.gif?noredirect" width="200" height="200"><img src=https://thumbs.gfycat.com/ActiveUnconsciousHyena-max-1mb.gif width="150" height="150"><img src=https://media0.giphy.com/media/9KawrQzIwdAYg/giphy.gif?cid=3640f6095c6bd9026153446f730ee93b width="200" height="200">
 
-<div id="Blackbox"><h3>blackbox</h3></div>
-
-<h3>Put your character description in the box below, based upon the following constraints:</h3>
-
+<div id="Container">
+<div id="MainText"><h3>Put your character description in the box below, based upon the following constraints:</h3>
 <ul>
-
     <li>Choose the art style:</li>
-
      <ul>
-
-        <button onclick="setartstyle(0)">Anime</button>
-
-        <button onclick="setartstyle(1)">Cartoon</button>
-
-        <button onclick="setartstyle(2)">Realistic</button>
-
+        <li>Anime</li>
+        <li>Cartoon</li>
+        <li>Realistic</li>
     </ul>   
-
     <li>Choose the facial feature:</li>
-
     <ul>
-
         <li>Eyes</li>
-
         <li>Nose</li>
-
         <li>Mouth</li>
-
+        <li>Ears</li>
+        <li>Shape of head</li>
     </ul>
-
     <li>Choose the size of the facial feature (or synonyms):</li>
-
     <ul>
-
         <li>Big</li>
-
         <li>Medium</li>
-
         <li>Small</li>
-
     </ul>
-
 </ul>
-
-<input type="text" id="character_input" placeholder = "describe character" name="character_input" width="100", height="100"/>
-<input type="text" id="character_name" placeholder = "Character's name" name="character_name"/>
+</div>
+<div id="Imagebox">
+    <div id="Whitebox">Eyes</div>
+    <img src="https://i.pinimg.com/originals/83/cf/a6/83cfa605342712994842de13eacc7531.jpg"/>
+</div>
+</div>
+<input type="text" id="character_input" placeholder = "describe character" name="character_input"/>
 <button onclick="character_imagine()">Submit</button>
-
 </body>
-
 </html>
-
 </head>
