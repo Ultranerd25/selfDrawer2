@@ -38,9 +38,9 @@ anime_nose.push('./Assets/Anime/anime_noseM.png');
 anime_nose.push('./Assets/Anime/anime_noseS.png');
 
 const anime_mouth = [];
-anime_mouth.push('./Assets/Anime/anime_mouthB.png)';
-anime_mouth.push('./Assets/Anime/anime_mouthM.png)';
-anime_mouth.push('./Assets/Anime/anime_mouthS.png)';
+anime_mouth.push('./Assets/Anime/anime_mouthB.png');
+anime_mouth.push('./Assets/Anime/anime_mouthM.png');
+anime_mouth.push('./Assets/Anime/anime_mouthS.png');
 const anime_ears = [];
 anime_eyes.push('./Assets/Anime/anime_earsB.png');
 anime_eyes.push('./Assets/Anime/anime_earsM.png');
@@ -54,9 +54,9 @@ cartoon_nose.push('./Assets/Cartoon/cartoon_noseB.png');
 cartoon_nose.push('./Assets/Cartoon/cartoon_noseM.png');
 cartoon_nose.push('./Assets/Cartoon/cartoon_noseS.png');
 const cartoon_mouth = [];
-cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthB.png)';
-cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthM.png)';
-cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthS.png)';
+cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthB.png');
+cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthM.png');
+cartoon_mouth.push('./Assets/Cartoon/cartoon_mouthS.png');
 
 //read person input
 function image_import(height,width,image) 
